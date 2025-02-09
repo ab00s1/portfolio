@@ -13,11 +13,11 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait">
       <Routes key={location.pathname} location={location}>
-        <Route path="/" element={<PageWrapper><Hero /></PageWrapper>} />
-        <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
-        <Route path="/experience" element={<PageWrapper><Experience /></PageWrapper>} />
-        <Route path="/projects" element={<PageWrapper><Projects /></PageWrapper>} />
-        <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
+        <Route path="/portfolio/" element={<PageWrapper><Hero /></PageWrapper>} />
+        <Route path="/portfolio/about" element={<PageWrapper><About /></PageWrapper>} />
+        <Route path="/portfolio/experience" element={<PageWrapper><Experience /></PageWrapper>} />
+        <Route path="/portfolio/projects" element={<PageWrapper><Projects /></PageWrapper>} />
+        <Route path="/portfolio/contact" element={<PageWrapper><Contact /></PageWrapper>} />
       </Routes>
     </AnimatePresence>
   );
@@ -45,7 +45,7 @@ function App() {
       <header className="sticky top-0 bg-white/50 backdrop-blur-md transition-all duration-300 shadow-md z-50">
         <nav className="flex justify-between items-center px-6 md:px-10 py-4">
           <div className="text-3xl font-bold">
-            <Link to="/" onClick={() => setMenuOpen(false)}>Abhinav Singh</Link>
+            <Link to="/portfolio/" onClick={() => setMenuOpen(false)}>Abhinav Singh</Link>
           </div>
 
           {/* Desktop Menu */}
@@ -54,7 +54,7 @@ function App() {
               <li key={item}>
                 <Link
                   className="transition-all duration-300 ease-in-out text-black no-underline hover:text-gray-500 hover:underline hover:underline-offset-4"
-                  to={`/${item}`}
+                  to={`/portfolio/${item}`}
                 >
                   {item.charAt(0).toUpperCase() + item.slice(1)}
                 </Link>
@@ -95,7 +95,7 @@ function App() {
           {["about", "experience", "projects", "contact"].map((item) => (
             <Link
               key={item}
-              to={`/${item}`}
+              to={`/portfolio/${item}`}
               className="block py-3 text-xl text-black w-full text-center transition-all duration-300 hover:text-gray-500 hover:bg-gray-100"
               onClick={() => setMenuOpen(false)}
             >
@@ -126,7 +126,7 @@ function App() {
               <li key={item}>
                 <Link
                   className="transition-all duration-300 ease-in-out text-black no-underline hover:text-gray-500 hover:underline hover:underline-offset-4"
-                  to={`/${item}`}
+                  to={`/portfolio/${item}`}
                   onClick={() => setMenuOpen(false)}
                 >
                   {item.charAt(0).toUpperCase() + item.slice(1)}

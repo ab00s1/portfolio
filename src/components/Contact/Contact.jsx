@@ -3,19 +3,19 @@ import React from "react";
 function Contact() {
   const contacts = [
     {
-      icon: "/assets/envelope-solid.svg",
+      icon: "/portfolio/assets/envelope-solid.svg",
       alt: "Email icon",
       link: "mailto:abhi.singh6701@gmail.com",
       text: "Email",
     },
     {
-      icon: "/assets/linkedin-brands-solid.svg",
+      icon: "/portfolio/assets/linkedin-brands-solid.svg",
       alt: "LinkedIn icon",
       link: "https://www.linkedin.com/in/abhinav-singh-961aa720a/",
       text: "LinkedIn",
     },
     {
-      icon: "/assets/phone-solid.svg",
+      icon: "/portfolio/assets/phone-solid.svg",
       alt: "Telephone icon",
       link: "tel:+918604776701",
       text: "Phone",

@@ -15,7 +15,7 @@ function About() {
       <div className="flex flex-col md:flex-row items-center md:justify-center gap-10 md:gap-16">
         <div className="flex justify-center">
           <img
-            src="/assets/about_p.jpg"
+            src="/portfolio/assets/about_p.jpg"
             alt="Profile picture"
             className="rounded-4xl w-[250px] md:w-[350px] lg:w-[400px] mx-auto md:mx-0"
           />
@@ -25,7 +25,7 @@ function About() {
           <div className="flex flex-wrap justify-center gap-6 mb-6">
             <div className="p-6 bg-white rounded-4xl border border-gray-400 shadow-md text-center w-[220px]">
               <img
-                src="/assets/experience.png"
+                src="/portfolio/assets/experience.png"
                 alt="Experience icon"
                 className="h-10 mx-auto mb-2"
               />
@@ -36,7 +36,7 @@ function About() {
             </div>
             <div className="p-6 bg-white rounded-4xl border border-gray-400 shadow-md text-center w-[40%]">
               <img
-                src="/assets/education.png"
+                src="/portfolio/assets/education.png"
                 alt="Education icon"
                 className="h-10 mx-auto mb-2"
               />
@@ -62,7 +62,7 @@ function About() {
 
       <Link to="/experience">
         <img
-          src="/assets/right.svg"
+          src="/portfolio/assets/right.svg"
           alt="Arrow icon"
           className="cursor-pointer h-8 absolute right-5 bottom-5 md:right-10 md:bottom-10"
         />

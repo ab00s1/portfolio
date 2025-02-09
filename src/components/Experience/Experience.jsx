@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 function Experience() {
   const frontendSkills = [
-    { name: "HTML", level: "Experienced", src: "/assets/html5-brands-solid.svg" },
-    { name: "CSS", level: "Experienced", src: "/assets/css3-brands-solid.svg" },
-    { name: "TailwindCSS", level: "Experienced", src: "/assets/tailwind-css.svg" },
-    { name: "JavaScript", level: "Experienced", src: "/assets/js-brands-solid.svg" },
-    { name: "React", level: "Intermediate", src: "/assets/react-brands-solid.svg" },
-    { name: "Angular", level: "Basic", src: "/assets/angular-brands-solid.svg" },
+    { name: "HTML", level: "Experienced", src: "/portfolio/assets/html5-brands-solid.svg" },
+    { name: "CSS", level: "Experienced", src: "/portfolio/assets/css3-brands-solid.svg" },
+    { name: "TailwindCSS", level: "Experienced", src: "/portfolio/assets/tailwind-css.svg" },
+    { name: "JavaScript", level: "Experienced", src: "/portfolio/assets/js-brands-solid.svg" },
+    { name: "React", level: "Intermediate", src: "/portfolio/assets/react-brands-solid.svg" },
+    { name: "Angular", level: "Basic", src: "/portfolio/assets/angular-brands-solid.svg" },
   ];
 
   const backendSkills = [
-    { name: "MySQL", level: "Intermediate", src: "/assets/mySQL.jpg" },
-    { name: "Node JS", level: "Intermediate", src: "/assets/node-brands-solid.svg" },
-    { name: "Git", level: "Intermediate", src: "/assets/git-alt-brands-solid.svg"},
+    { name: "MySQL", level: "Intermediate", src: "/portfolio/assets/mySQL.jpg" },
+    { name: "Node JS", level: "Intermediate", src: "/portfolio/assets/node-brands-solid.svg" },
+    { name: "Git", level: "Intermediate", src: "/portfolio/assets/git-alt-brands-solid.svg"},
   ];
 
   return (
@@ -70,7 +70,7 @@ function Experience() {
       {/* Arrow Navigation to Projects Section */}
       <Link to="/projects">
         <img
-          src="/assets/right.svg"
+          src="/portfolio/assets/right.svg"
           alt="Arrow icon"
           className="cursor-pointer h-8 absolute right-5 bottom-5 md:right-10 md:bottom-10"
         />

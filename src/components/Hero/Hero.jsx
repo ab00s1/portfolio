@@ -10,7 +10,7 @@ function Hero() {
       {/* Profile Image */}
       <div className="flex justify-center">
         <img
-          src="/assets/pp.jpg"
+          src="/portfolio/assets/pp.jpg"
           alt="profile"
           className="w-64 h-64 md:w-96 md:h-96 rounded-full md:rounded-4xl object-cover shadow-lg"
         />
@@ -24,7 +24,7 @@ function Hero() {
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row justify-center md:justify-start gap-4">
-          <a href="/src/assets/thisResume.pdf" download="abhinavs_Resume.pdf">
+          <a href="/portfolio/assets/thisResume.pdf" download="abhinavs_Resume.pdf">
             <button className="px-6 py-3 text-lg font-semibold cursor-pointer border-2 border-gray-700 rounded-lg bg-transparent hover:bg-gray-800 hover:text-white transition-all duration-300">
               Download CV
             </button>
@@ -39,7 +39,7 @@ function Hero() {
         {/* Social Media Icons */}
         <div className="flex justify-center md:justify-start mt-6 gap-4">
           <img
-            src="/assets/linkedin-brands-solid.svg"
+            src="/portfolio/assets/linkedin-brands-solid.svg"
             alt="LinkedIn"
             className="cursor-pointer w-8 h-8 transition-transform duration-300 hover:scale-110"
             onClick={() =>
@@ -47,13 +47,13 @@ function Hero() {
             }
           />
           <img
-            src="/assets/github-brands-solid.svg"
+            src="/portfolio/assets/github-brands-solid.svg"
             alt="GitHub"
             className="cursor-pointer w-8 h-8 transition-transform duration-300 hover:scale-110"
             onClick={() => window.open("https://github.com/ab00s1/", "_blank")}
           />
           <img
-            src="/assets/instagram-brands-solid.svg"
+            src="/portfolio/assets/instagram-brands-solid.svg"
             alt="Instagram"
             className="cursor-pointer w-8 h-8 transition-transform duration-300 hover:scale-110"
             onClick={() => window.open("https://www.instagram.com/_myself_abhinav/", "_blank")}
