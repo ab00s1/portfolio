@@ -5,25 +5,25 @@ function Projects() {
   const projects = [
     {
       title: "E-Commerce demo site",
-      image: "/assets/eCommerce.jpg",
+      image: "/portfolio/assets/eCommerce.jpg",
       github: "https://github.com/ab00s1/E-Commerce-Website-Design",
       liveDemo: "https://shopping-e-commerce-demo.netlify.app/",
     },
     {
       title: "World Map Countries",
-      image: "/assets/countries.jpg",
+      image: "/portfolio/assets/countries.jpg",
       github: "https://github.com/ab00s1/where-in-the-world_ReactJS_",
       liveDemo: "https://countries-of-planet.netlify.app/",
     },
     {
       title: "Health Web App",
-      image: "/assets/health.jpg",
+      image: "/portfolio/assets/health.jpg",
       github: "https://github.com/ab00s1/Health-Challenge-Tracker",
       liveDemo: "https://health-challenger.netlify.app/",
     },
     {
       title: "Online Quiz game",
-      image: "/assets/kbc.jpg",
+      image: "/portfolio/assets/kbc.jpg",
       github: "https://github.com/ab00s1/play-KBC",
       liveDemo: "https://kyun-banega-crorepati.netlify.app/",
     },
@@ -77,9 +77,9 @@ function Projects() {
       </div>
 
       {/* Arrow Navigation to Contact Section */}
-      <Link to="/contact">
+      <Link to="/portfolio/contact">
         <img
-          src="/assets/right.svg"
+          src="/portfolio/assets/right.svg"
           alt="Arrow icon"
           className="cursor-pointer h-8 absolute right-5 bottom-5 md:right-10 md:bottom-10"
         />

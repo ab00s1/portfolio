@@ -29,7 +29,7 @@ function Hero() {
               Download CV
             </button>
           </a>
-          <Link to="/contact">
+          <Link to="/portfolio/contact">
             <button className="px-6 py-3 text-lg font-semibold cursor-pointer text-white bg-gray-800 rounded-lg hover:bg-black transition-all duration-300">
               Contact Info
             </button>

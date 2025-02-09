@@ -60,7 +60,7 @@ function About() {
         </div>
       </div>
 
-      <Link to="/experience">
+      <Link to="/portfolio/experience">
         <img
           src="/portfolio/assets/right.svg"
           alt="Arrow icon"

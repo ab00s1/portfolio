@@ -68,7 +68,7 @@ function Experience() {
       </div>
 
       {/* Arrow Navigation to Projects Section */}
-      <Link to="/projects">
+      <Link to="/portfolio/projects">
         <img
           src="/portfolio/assets/right.svg"
           alt="Arrow icon"
