@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  background: #e1e1e1;
+}
+
+p {
+  color: rgb(85, 85, 85)
+}
